@@ -10,5 +10,7 @@
        std::cout << "Ââåäèòå âòîğîå öåëîå ÷èñëî: ";
        std::cin >> num2;
 
+       int sum = num1 + num2;
+       std::cout << "Ñóììà: " << sum << std::endl;
        return 0;
    }
