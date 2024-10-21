@@ -12,5 +12,11 @@
 
        int sum = num1 + num2;
        std::cout << "Ñóììà: " << sum << std::endl;
+
+       if (num1 > num2){
+        std::cout << "Ğàçíîñòü:" << num1 - num2<<std::endl;
+       } else {
+        std::cout << "Ğàçíîñòü:" << num2 - num1<<std::endl;
+       }
        return 0;
    }
