@@ -18,6 +18,7 @@
        } else {
         std::cout << "Разность:" << num2 - num1<<std::endl;
        }
+       std::cout << "division: " << num1 / num2 << std::endl;
        std::cout << "multiplication: " << num1 * num2 << std::endl;
        return 0;
    }
